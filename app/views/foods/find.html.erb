@@ -1,0 +1,26 @@
+<h1>Listing Foods</h1>
+<table>
+	<tr>
+	<th>Name</th>
+	<th>Portion</th>
+	<th>Unit Of Measure</th>
+	<th>Calories</th>
+	<th>Meal</th>
+	<th></th>
+	<th></th>
+	<th></th>
+	</tr>
+
+	<% @foods.each do |food| %>
+	<tr>
+	  <td><%= food.name %></td>
+	  <td><%= food.portion %></td>
+	  <td><%= food.unitofmeasure %></td>
+	  <td><%= food.calories %></td>
+	  <td><%= food.meal %></td>
+	  <td><%= link_to 'Show', food %></td>
+	  <td><%= link_to 'Edit', edit_food_path(food) %></td>
+	  <td><%= link_to 'Destroy', food, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
+	<% end %>
+</table>
