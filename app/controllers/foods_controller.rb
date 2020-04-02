@@ -2,7 +2,7 @@ class FoodsController < ApplicationController
   before_action :set_food, only: [:show, :edit, :update, :destroy]
 
   def find
-    @foods = Food.where("name = ? OR meal = ?", params[:search_string], params[:search_string])
+    @foods = Food.where("name = ? OR meal = ?", params[:search_string].capitalize, params[:search_string].capitalize)
   end
 
   # GET /foods
