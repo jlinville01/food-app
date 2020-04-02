@@ -11,3 +11,4 @@ This application was an assignment for a Santa Monica College server-side ruby c
 5. `rake db:create`
 6. `rake db:migrate`
 7. `rake db:seed`
+8. Visit `http://localhost:3000/foods`
