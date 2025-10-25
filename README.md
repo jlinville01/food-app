@@ -1,8 +1,6 @@
 # Food App
 
-This application constructs a Rails web application that supports search functionality and validation rules.
-
-# Setup
+## Setup
 
 1. Clone the repository
 2. `cd /food-app`
