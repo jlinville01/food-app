@@ -1,11 +1,11 @@
 # Food App
 
-This application was an assignment for a Santa Monica College server-side ruby course with the purpose to construct a Rails web application that supports search functionality and validation rules.
+This application constructs a Rails web application that supports search functionality and validation rules.
 
 # Setup
 
 1. Clone the repository
-2. `cd /marvel-api`
+2. `cd /food-app`
 3. `bundle install`
 4. `rails s`
 5. `rake db:create`
